@@ -1,0 +1,24 @@
+{
+  "name": "takeout_map_webapp",
+  "version": "1.0.0",
+  "description": "makes an interactive map out of the data from google takeout",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aurelieschool/takeout-maps-webapp.git"
+  },
+  "keywords": [
+    "data",
+    "takeout"
+  ],
+  "author": "Aurélie Roubinowitz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aurelieschool/takeout-maps-webapp/issues"
+  },
+  "homepage": "https://github.com/aurelieschool/takeout-maps-webapp#readme"
+}
