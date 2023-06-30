@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify
 
 ## Returns geolocation data 
 app = Flask(__name__)
-api_key = 'AIzaSyBc-EYEQItR7_r04TjfbYj7tmO5rZP-aLY'
+api_key = 'process.env.KEY'
 
 # is this bad practice to just have a loose variable like this
 loc_cache = {}
@@ -53,7 +53,7 @@ def get_info():
 
     args = request.args
     x = (args.get('x'))/multiplier
-    y = args.get('y')/multiplier
+    y = (args.get('y'))/multiplier
 
     if None in (x, y):
         print("error: somehow no latitude and longitude inputted")
